@@ -1,3 +1,8 @@
+## A reactjs website build with create react app using 
+react router, 
+react hooks, 
+react forms using formik and yub form validation on an online theme.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
