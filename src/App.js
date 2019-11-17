@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
-import HomePageHeader from './Components/HomePageHeader/HomePageHeader';
+import Home from './Pages/Home/Home.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from '../src/Pages/About';
 import Contact from '../src/Pages/Contact';
@@ -13,7 +13,7 @@ function App() {
         <NavBar>
           <Route
             path="/"
-            component={HomePageHeader}
+            component={Home}
             exact
           />
 

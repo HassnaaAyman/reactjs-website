@@ -1,16 +1,18 @@
 import React from 'react';
+import Header from '../../Shared/Header';
+
 
 const HomePageHeader = () => {
+  const img = require("../../assets/img/header-bg.jpg");
+
   return(
-    <header className="masthead">
-      <div className="container">
-        <div className="intro-text">
-          <div className="intro-lead-in">Welcome To Our Studio!</div>
-          <div className="intro-heading text-uppercase">It's Nice To Meet You</div>
-          <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-        </div>
-      </div>
-    </header>
+   <Header
+    title="Welcome To Our Studio!"
+    subTitle="IT'S NICE TO MEET YOU"
+    buttonText="TELL ME MORE"
+    showButton={true}
+    image={img}
+   />
   );
 };
 
