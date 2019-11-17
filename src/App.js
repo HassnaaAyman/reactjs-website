@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from '../src/Pages/About';
 import Contact from '../src/Pages/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
           />
 
         </NavBar>
+
+        <Footer/>
       </Router>
     </div>
   );
